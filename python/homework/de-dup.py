@@ -1,45 +1,21 @@
 
 
 
-L = [5, 6, 7, 7, 8, 8, 10, 12, 20]
-print(data)
+l1 = [5, 6, 7, 7, 8, 8, 10, 12, 20]
+l2 = []
 
-def remove_duplicates(duplist):
-    noduplist = []
-    for element in duplist:
-        if element not in noduplist:
-            noduplist.append(element)
-    return noduplist
+print(l1)
 
-print(remove_duplicates(data))
+for element in l1:
+    if element not in l2:
+        l2.append(element)
+            
 
-
-
-
-
-
-
-# print(nums)
-# del nums[2]
-
-# print(nums)
-
-# print(lens(nums))
+print(l2)
 
 
 
 
 
 
-# list1 = [1, 5, 6, 16, 20]
-# print(list1)
 
-# list2 = list1
-
-# # print(list2)
-
-# list2 = list1.copy()
-
-# list2[1] = 99
-
-# print(list2)
