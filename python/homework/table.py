@@ -8,11 +8,11 @@
 
 
 
-t = int(input('enter number: '))
+mt = int(input('enter number: '))
 count = 1
 
-while count <= t:
-    print(t, '*', count, '=',t*count)
+while count <= mt:
+    print(mt, '*', count, '=',mt*count)
     count += 1
 
 

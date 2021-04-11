@@ -1,7 +1,7 @@
 
 
 
-amount = int(input('Total bill amount?'))
+amount = float(input('Total bill amount?'))
 
 service = input ('what is the level of service? ')
 
