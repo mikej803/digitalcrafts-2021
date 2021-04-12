@@ -1,26 +1,21 @@
 
 
 
-# while count <= t:
-#     print(t, '*', count, '=',t*count)
-#     count += 1
 
-# [2, 4, 5] x [2, 3, 6] = [4, 12, 30]
 
-list1 = [2, 4, 5]
-list2 = [2, 3, 6]
-mult_list = []
 
-for i in range(0,len(list1)):
-    mult_list.append(list1[i]*list2[i])
+a = [2,4,5]
+b = [2,3,6]
+# the c = the multiplication preoblem of each index postion.
+c = [a[0] * b[0], a[1] * b[1], a[2] * b[2]]
+# defined each position of the for loop.
+for i in range(0,len(a)):
+    if a[0] * b[0]:
+        c == [0]
+    elif a[1] * b[1]:
+        c == [1]
+    elif a[2] * b[2]:
+        c == [2]
+print(a, 'X', b , ' = ',  c)
 
-print(list1, "X", list2, "=", mult_list)
-
-# for i in range(num1):
-#     for width in range(num2):
-#         if height == 0 or height == num1 - 1 or width == 0 or width == num2 - 1:
-#             print('*', end = '')
-#         else:
-#             print(' ', end = '')
-#     print()
 
