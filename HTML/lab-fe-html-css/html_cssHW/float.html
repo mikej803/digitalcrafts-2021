@@ -4,71 +4,62 @@
 
  <!DOCTYPE html>
  <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .header{
-            text-align: center;
-            background-color: grey;
-            color: white;
-            text-align: center;
-            /* width: 500px; */
-            height: 20px;
-            /* border: 10px; */
-            padding: 5px;
-            /* margin-left: 80px;
-            margin-right: 80px;  */
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Float</title>
+     <style> 
+     
+        html {
+            width: 100%;                    
+            height: 100vh;  
         }
-        .sidebar{
-            background-color: whitesmoke;
-            height: 300px;
-            /* padding-left: 100px;
-            padding-top: 150px; */
-            width: 20%; 
-            /* margin-right: 400px; */
-            /* margin-left: 80px;  */
-            display: inline-block;
-            /* left: 100px; */
-            color: black;
-            float: left;
+    
+        body {
+            margin: 0;                      
+            height: 100%;
+            text-align: center;                   
         }
-        .maincontent{
-            /* position: static; */
-            background-color: lightgrey;
-            height: 300px;
-            width: 80%;
-            /* width: 40%; */
-            /* margin-left: 225px; */
-            float: left;
+    
+        .container {
+            box-sizing: border-box;
+            width: 100%;
+            height: 80%;
         }
-        .footer{
-            text-align: center;
-            color: white;
-            background-color: rgb(75, 72, 72);
-            padding: 5px;
-            /* margin-left: 70px;
-            margin-right: 60px; */
+        header{
+            height: 10%;
+            background-color: rgb(98, 103, 101);
         }
-        .clear{
-            clear: both;
+        .sidebar {  
+            float: left;                  
+            width: 20%;
+            height: 75%;
+            background-color:darkgray;
+        }
+    
+        .maincontent {
+            float: right;
+            width: 78%;
+            height: 60%;
+            background-color: lightgray;
+        }
+    
+        footer {
+            height: 10%;
+            background-color: rgb(98, 103, 101);
         }
     </style>
-</head>
-<body>
-    <p class="header">Header
-    </p>
-        <div>
-            <div class="sidebar">Sidebar</div>
-            <div class="maincontent">Main content</div>
-            <div class="clear"></div>
-        </div>
-    <p class="footer">Footer
-    </p>
-</body>
-</html>
+ </head>
+ <body>
+     <header>Header</header>
+     <div class="container">
+         <div class="sidebar">Side bar</div>
+         <div class="maincontent">Main content</div>
+     </div>
+     <footer>Footer</footer>
+ </body>
+ </html>
 
 
 
